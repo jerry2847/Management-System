@@ -78,7 +78,6 @@ body{
     background:#ffd700;
     color:#b30000;
 }
-/* ================= LOGIN SECTION ================= */
 
 .login-section{
     width:90%;
@@ -91,7 +90,6 @@ body{
     box-shadow:0 10px 25px rgba(0,0,0,.15);
 }
 
-/* Left Side */
 
 .login-left{
     width:40%;
@@ -120,8 +118,6 @@ body{
     line-height:30px;
 }
 
-/* Right Side */
-
 .login-box{
     width:60%;
     padding:50px;
@@ -133,9 +129,6 @@ body{
     margin-bottom:35px;
     font-size:35px;
 }
-
-/* Input */
-
 .input-box{
     position:relative;
     margin-bottom:20px;
@@ -161,8 +154,6 @@ body{
     border:2px solid #b30000;
 }
 
-/* Options */
-
 .options{
     display:flex;
     justify-content:space-between;
@@ -178,8 +169,6 @@ body{
 .options a:hover{
     text-decoration:underline;
 }
-
-/* Button */
 
 button{
     width:100%;
@@ -201,8 +190,6 @@ button i{
     margin-right:8px;
 }
 
-/* Register Link */
-
 .register-link{
     text-align:center;
     margin-top:20px;
@@ -217,8 +204,6 @@ button i{
 .register-link a:hover{
     text-decoration:underline;
 }
-
-/* ================= RESPONSIVE ================= */
 
 @media(max-width:900px){
 
