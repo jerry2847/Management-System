@@ -73,7 +73,7 @@ body{
     background:#ffd700;
 }
 
-/* ================= REGISTER SECTION ================= */
+
 
 .register-section{
     width:90%;
@@ -85,8 +85,6 @@ body{
     overflow:hidden;
     box-shadow:0 10px 30px rgba(0,0,0,.15);
 }
-
-/* Left Side */
 
 .left-side{
     width:40%;
@@ -120,8 +118,6 @@ body{
     font-size:17px;
 }
 
-/* Right Side */
-
 .register-box{
     width:60%;
     padding:40px;
@@ -134,7 +130,7 @@ body{
     font-size:35px;
 }
 
-/* Input Box */
+
 
 .input-box{
     position:relative;
@@ -163,8 +159,6 @@ body{
     border:2px solid #b30000;
 }
 
-/* Address */
-
 textarea{
     width:100%;
     padding:15px;
@@ -179,8 +173,6 @@ textarea{
 textarea:focus{
     border:2px solid #b30000;
 }
-
-/* Button */
 
 button{
     width:100%;
@@ -208,8 +200,6 @@ button:hover{
     text-decoration:none;
     font-weight:600;
 }
-
-/* Responsive */
 
 @media(max-width:900px){
 
