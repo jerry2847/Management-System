@@ -1,4 +1,4 @@
-/* ================= GOOGLE FONT ================= */
+
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 
@@ -15,8 +15,6 @@ body{
     color:#333;
 }
 
-
-/* ================= NAVBAR ================= */
 
 .navbar{
     width:100%;
@@ -81,8 +79,6 @@ body{
     background:#ffd700;
     color:#b30000;
 }
-
-/* ================= HERO ================= */
 
 .hero{
     display:flex;
@@ -170,7 +166,6 @@ body{
     max-width:500px;
 }
 
-/* ================= STATISTICS ================= */
 
 .stats{
     display:grid;
@@ -209,7 +204,7 @@ body{
     color:#666;
     font-size:17px;
 }
-/* ================= BLOOD AVAILABILITY ================= */
+
 
 .availability{
     padding:80px 8%;
@@ -259,7 +254,6 @@ body{
     font-weight:600;
 }
 
-/* ================= WHY CHOOSE US ================= */
 
 .why-us{
     padding:80px 8%;
@@ -319,7 +313,7 @@ body{
     line-height:26px;
 }
 
-/* ================= HOW IT WORKS ================= */
+
 
 .works{
     padding:80px 8%;
@@ -365,8 +359,6 @@ body{
     color:#666;
 }
 
-/* ================= BLOOD DONATION TIPS ================= */
-
 .tips{
     padding:80px 8%;
     background:white;
@@ -398,7 +390,7 @@ body{
 .tip:hover{
     transform:translateX(10px);
 }
-/* ================= TESTIMONIALS ================= */
+
 
 .testimonials{
     padding:80px 8%;
@@ -446,7 +438,6 @@ body{
     color:#b30000;
 }
 
-/* ================= EMERGENCY ================= */
 
 .emergency{
     background:linear-gradient(135deg,#b30000,#ff4d4d);
@@ -480,7 +471,6 @@ body{
     background:#ffd700;
 }
 
-/* ================= GALLERY ================= */
 
 .gallery{
     padding:80px 8%;
@@ -518,8 +508,6 @@ body{
     transform:scale(1.05);
 }
 
-/* ================= FAQ ================= */
-
 .faq{
     padding:80px 8%;
     background:#f8f9fb;
@@ -550,8 +538,6 @@ body{
     color:#555;
     line-height:28px;
 }
-
-/* ================= CTA ================= */
 
 .cta{
     background:#b30000;
@@ -585,7 +571,7 @@ body{
     background:#ffd700;
 }
 
-/* ================= SOCIAL ================= */
+
 
 .social{
     padding:60px;
@@ -622,8 +608,6 @@ body{
     background:#ff4d4d;
     transform:translateY(-8px);
 }
-
-/* ================= FOOTER ================= */
 
 footer{
     background:#8b0000;
@@ -662,8 +646,6 @@ footer{
     background:#700000;
     padding:18px;
 }
-
-/* ================= RESPONSIVE ================= */
 
 @media(max-width:992px){
 
