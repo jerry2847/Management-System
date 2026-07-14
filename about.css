@@ -1,0 +1,324 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    background: #fff5f5;
+}
+
+
+.navbar{
+    width:100%;
+    background:#b30000;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:18px 70px;
+    position:sticky;
+    top:0;
+    z-index:1000;
+}
+
+.logo{
+    display:flex;
+    align-items:center;
+    color:white;
+}
+
+.logo i{
+    font-size:32px;
+    margin-right:10px;
+}
+
+.logo h2{
+    font-size:25px;
+    font-weight:700;
+}
+
+.nav-links{
+    display:flex;
+    list-style:none;
+}
+
+.nav-links li{
+    margin:0 15px;
+}
+
+.nav-links li a{
+    color:white;
+    text-decoration:none;
+    font-size:16px;
+    font-weight:500;
+    transition:.3s;
+}
+
+.nav-links li a:hover{
+    color:#ffd700;
+}
+
+.logout-btn{
+    background:white;
+    color:#b30000;
+    text-decoration:none;
+    padding:11px 20px;
+    border-radius:8px;
+    font-weight:600;
+    transition:.3s;
+}
+
+.logout-btn:hover{
+    background:#ffd700;
+    color:#b30000;
+}
+/* ================= HERO ================= */
+
+.hero{
+    height:70vh;
+    background:linear-gradient(rgba(179,0,0,.75),rgba(179,0,0,.75)),
+    url("images/about-bg.jpg");
+    background-size:cover;
+    background-position:center;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    color:white;
+}
+
+.hero-content h1{
+    font-size:60px;
+    margin-bottom:20px;
+}
+
+.hero-content p{
+    font-size:20px;
+    margin-bottom:30px;
+    max-width:700px;
+}
+
+.btn{
+    display:inline-block;
+    background:white;
+    color:#b30000;
+    text-decoration:none;
+    padding:15px 35px;
+    border-radius:30px;
+    font-weight:bold;
+    transition:.3s;
+}
+
+.btn:hover{
+    background:#ffd700;
+}
+
+/* ================= MISSION ================= */
+
+.mission{
+    width:90%;
+    margin:70px auto;
+    display:flex;
+    justify-content:center;
+    gap:30px;
+    flex-wrap:wrap;
+}
+
+.card{
+    width:320px;
+    background:white;
+    padding:35px;
+    text-align:center;
+    border-radius:20px;
+    box-shadow:0 10px 25px rgba(0,0,0,.1);
+    transition:.4s;
+}
+
+.card:hover{
+    transform:translateY(-10px);
+}
+
+.card i{
+    font-size:50px;
+    color:#b30000;
+    margin-bottom:20px;
+}
+
+.card h2{
+    color:#b30000;
+    margin-bottom:15px;
+}
+
+.card p{
+    color:#666;
+    line-height:28px;
+}
+
+/* ================= WORKFLOW ================= */
+
+.workflow{
+    background:#fff5f5;
+    padding:70px 20px;
+    text-align:center;
+}
+
+.workflow h1{
+    color:#b30000;
+    margin-bottom:50px;
+    font-size:40px;
+}
+
+.steps{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-wrap:wrap;
+    gap:25px;
+}
+
+.step{
+    background:white;
+    width:180px;
+    padding:25px;
+    border-radius:15px;
+    box-shadow:0 5px 15px rgba(0,0,0,.1);
+}
+
+.step i{
+    font-size:40px;
+    color:#b30000;
+    margin-bottom:15px;
+}
+
+.arrow{
+    font-size:28px;
+    color:#b30000;
+}
+
+/* ================= WHY CHOOSE ================= */
+
+.why{
+    padding:70px 20px;
+    text-align:center;
+}
+
+.why h1{
+    color:#b30000;
+    margin-bottom:50px;
+    font-size:40px;
+}
+
+.features{
+    display:flex;
+    justify-content:center;
+    gap:25px;
+    flex-wrap:wrap;
+}
+
+.feature{
+    width:240px;
+    background:white;
+    padding:30px;
+    border-radius:20px;
+    box-shadow:0 8px 20px rgba(0,0,0,.1);
+    transition:.3s;
+}
+
+.feature:hover{
+    background:#b30000;
+    color:white;
+}
+
+.feature:hover i{
+    color:white;
+}
+
+.feature i{
+    font-size:45px;
+    color:#b30000;
+    margin-bottom:15px;
+}
+
+.feature h3{
+    font-size:20px;
+}
+
+/* ================= CTA ================= */
+
+.cta{
+    margin:70px auto;
+    width:90%;
+    background:linear-gradient(135deg,#b30000,#ff4d4d);
+    color:white;
+    padding:60px;
+    border-radius:25px;
+    text-align:center;
+}
+
+.cta h1{
+    font-size:45px;
+    margin-bottom:20px;
+}
+
+.cta p{
+    font-size:18px;
+    margin-bottom:30px;
+}
+
+/* ================= FOOTER ================= */
+
+footer{
+    background:#b30000;
+    color:white;
+    text-align:center;
+    padding:30px;
+}
+
+footer h2{
+    margin-bottom:15px;
+}
+
+footer p{
+    margin:8px 0;
+}
+
+/* ================= RESPONSIVE ================= */
+
+@media(max-width:992px){
+
+.navbar{
+    flex-direction:column;
+}
+
+.nav-links{
+    flex-wrap:wrap;
+    justify-content:center;
+    margin-top:15px;
+}
+
+.hero-content h1{
+    font-size:40px;
+}
+
+.hero-content p{
+    font-size:17px;
+}
+
+.steps{
+    flex-direction:column;
+}
+
+.arrow{
+    transform:rotate(90deg);
+}
+
+.cta h1{
+    font-size:32px;
+}
+
+}

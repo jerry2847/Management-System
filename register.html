@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blood Donor Registration</title>
+
+    <link rel="stylesheet" href="register.css">
+
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+
+<!-- Navbar -->
+
+<nav class="navbar">
+
+    <div class="logo">
+        <i class="fa-solid fa-droplet"></i>
+        <h2>Blood Donor</h2>
+    </div>
+
+    <ul class="nav-links">
+        <li><a href="home.html">Home</a></li>
+         <li><a href="login.html">Login</a></li>
+          <li><a href="search.html">Search Donor</a></li>
+        <li><a href="bloodrequest.html">Blood Request</a></li>
+    <li><a href="register.html">Register</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+
+    <a href="login.html" class="logout-btn">
+        <i class="fa-solid fa-right-from-bracket"></i>
+        Logout
+    </a>
+
+</nav> 
+
+<!-- Registration Section -->
+
+<section class="register-section">
+
+    <!-- Left Side -->
+
+    <div class="left-side">
+
+        <i class="fa-solid fa-droplet blood-icon"></i>
+
+        <h1>Become a Hero</h1>
+
+        <h2>Donate Blood,<br>Save Lives</h2>
+
+        <p>
+            Your one donation can save up to three lives.
+            Join our blood donor community today and make
+            a difference.
+        </p>
+
+    </div>
+
+    <!-- Right Side -->
+
+    <div class="register-box">
+
+        <h2>Create Account</h2>
+
+        <form>
+
+            <div class="input-box">
+                <i class="fa-solid fa-user"></i>
+                <input type="text" placeholder="Full Name" required>
+            </div>
+
+            <div class="input-box">
+                <i class="fa-solid fa-cake-candles"></i>
+                <input type="number" placeholder="Age" required>
+            </div>
+
+            <div class="input-box">
+                <i class="fa-solid fa-venus-mars"></i>
+
+                <select required>
+                    <option>Select Gender</option>
+                    <option>Male</option>
+                    <option>Female</option>
+                    <option>Other</option>
+                </select>
+
+            </div>
+
+            <div class="input-box">
+                <i class="fa-solid fa-droplet"></i>
+
+                <select required>
+                    <option>Select Blood Group</option>
+                    <option>A+</option>
+                    <option>A-</option>
+                    <option>B+</option>
+                    <option>B-</option>
+                    <option>AB+</option>
+                    <option>AB-</option>
+                    <option>O+</option>
+                    <option>O-</option>
+                </select>
+
+            </div>
+
+            <div class="input-box">
+                <i class="fa-solid fa-phone"></i>
+                <input type="tel" placeholder="Mobile Number" required>
+            </div>
+
+            <div class="input-box">
+                <i class="fa-solid fa-envelope"></i>
+                <input type="email" placeholder="Email Address" required>
+            </div>
+
+            <div class="input-box">
+                <i class="fa-solid fa-location-dot"></i>
+                <input type="text" placeholder="City" required>
+            </div>
+
+            <div class="input-box">
+                <i class="fa-solid fa-lock"></i>
+                <input type="password" placeholder="Password" required>
+            </div>
+
+            <div class="input-box">
+                <i class="fa-solid fa-lock"></i>
+                <input type="password" placeholder="Confirm Password" required>
+            </div>
+
+            <textarea placeholder="Address" rows="4"></textarea>
+
+            <button type="submit">
+                <i class="fa-solid fa-user-plus"></i>
+                Register Now
+            </button>
+
+        </form>
+
+        <p class="login-text">
+            Already have an account?
+            <a href="login.html">Login</a>
+        </p>
+
+    </div>
+
+</section>
+
+</body>
+</html>
